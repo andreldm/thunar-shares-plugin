@@ -200,7 +200,7 @@ tsp_page_init (TspPage *page)
   /* Apply button */
   hbox1 = gtk_hbutton_box_new ();
   gtk_box_set_spacing (GTK_BOX (hbox1), 5);
-  gtk_hbutton_box_set_layout_default (GTK_BUTTONBOX_END);
+  // gtk_hbutton_box_set_layout_default (GTK_BUTTONBOX_END);
   gtk_box_pack_start (GTK_BOX (vbox1), hbox1, TRUE, TRUE, 7);
 
   page->button_apply = gtk_button_new_from_stock (GTK_STOCK_APPLY);
